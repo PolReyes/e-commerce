@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
 
     <!-- BASE CSS -->
-    <link href="css/bootstrap.custom.min.css" rel="stylesheet">
+    <link href="{{asset('css/bootstrap.custom.min.css')^^" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
 	<!-- SPECIFIC CSS -->
