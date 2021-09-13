@@ -5,6 +5,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="card">
                             <div class="card-body">
+                                <h1>Proyecto editado</h1>
+                                <h1>Pasdasdasdasdas</h1>
                                 <!--<div class="stat-widget-five">
                                     <div class="stat-icon dib flat-color-1">
                                         <i class="pe-7s-cash"></i>
