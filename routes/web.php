@@ -22,6 +22,7 @@ Route::get("imagenes/{carpeta1}/{carpeta2}/{archivo}",function($carpeta1,$carpet
     return response()->file($path);
 });
 
+Route::get("/","Frontend\FrontendController@getIndex")->name("front.index");
 
 Route::get('/', function () {
     return view('admin.login');

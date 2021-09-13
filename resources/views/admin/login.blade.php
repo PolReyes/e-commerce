@@ -27,17 +27,17 @@
 
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script> -->
 </head>
-<body class="bg-dark">
+<body class="bg-light">
 
     <div class="sufee-login d-flex align-content-center flex-wrap">
         <div class="container">
             <div class="login-content">
                 <div class="login-logo">
                     <a href="/">
-                        <img class="align-content" src="/images/logo.png" alt="">
+                        <img class="align-content" src="/images/logo-peruforce.png" alt="">
                     </a>
                 </div>
-                <div class="login-form">
+                <div class="login-form shadow">
                     <form method="post" action="{{ route('accion.login') }}">
                         {{ csrf_field() }}
 
@@ -67,7 +67,7 @@
                                 <a href="#">Forgotten Password?</a>
                             </label>
                         </div>--}}
-                        <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30">Iniciar sesión</button>
+                        <button type="submit" class="btn btn-flat m-b-30 m-t-30 text-white" style="background-color: #F06E4F">Iniciar sesión</button>
                         
                     </form>
                 </div>

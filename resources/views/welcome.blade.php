@@ -1,79 +1,21 @@
-@extends("layout")
-@section("content")
+<!--@extends("layout")-->
+<!--@section("content")-->
 <!-- Widgets  -->
 <div class="row">
                     <div class="col-lg-3 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h1>Proyecto editado</h1>
-                                <h1>Pasdasdasdasdas</h1>
-                                <!--<div class="stat-widget-five">
-                                    <div class="stat-icon dib flat-color-1">
-                                        <i class="pe-7s-cash"></i>
-                                    </div>
-                                    <div class="stat-content">
-                                        <div class="text-left dib">
-                                            <div class="stat-text">$<span class="count">23569</span></div>
-                                            <div class="stat-heading">Revenue</div>
-                                        </div>
-                                    </div>
-                                </div>-->
-                            </div>
-                        </div>
+                        
                     </div>
 
                     <div class="col-lg-3 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <!--<div class="stat-widget-five">
-                                    <div class="stat-icon dib flat-color-2">
-                                        <i class="pe-7s-cart"></i>
-                                    </div>
-                                    <div class="stat-content">
-                                        <div class="text-left dib">
-                                            <div class="stat-text"><span class="count">3435</span></div>
-                                            <div class="stat-heading">Sales</div>
-                                        </div>
-                                    </div>
-                                </div>-->
-                            </div>
-                        </div>
+                        
                     </div>
 
                     <div class="col-lg-3 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="stat-widget-five">
-                                    <!--<div class="stat-icon dib flat-color-3">
-                                        <i class="pe-7s-browser"></i>
-                                    </div>
-                                    <div class="stat-content">
-                                        <div class="text-left dib">
-                                            <div class="stat-text"><span class="count">349</span></div>
-                                            <div class="stat-heading">Templates</div>
-                                        </div>
-                                    </div>-->
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
 
                     <div class="col-lg-3 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="stat-widget-five">
-                                    <!--<div class="stat-icon dib flat-color-4">
-                                        <i class="pe-7s-users"></i>
-                                    </div>
-                                    <div class="stat-content">
-                                        <div class="text-left dib">
-                                            <div class="stat-text"><span class="count">2986</span></div>
-                                            <div class="stat-heading">Clients</div>
-                                        </div>
-                                    </div>-->
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <!-- /Widgets -->
@@ -82,37 +24,15 @@
                 <!-- To Do and Live Chat -->
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title box-title">To Do List</h4>
-                                <div class="card-content">
-                                    <div class="todo-list">
-                                        <div class="tdl-holder">
-                                            <div class="tdl-content">
-                                                
-                                            </div>
-                                        </div>
-                                    </div> <!-- /.todo-list -->
-                                </div>
-                            </div> <!-- /.card-body -->
-                        </div><!-- /.card -->
+                       <!-- /.card -->
                     </div>
 
                     <div class="col-lg-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title box-title">Live Chat</h4>
-                                <div class="card-content">
-                                    <div class="messenger-box">
-                                       
-                                    </div><!-- /.messenger-box -->
-                                </div>
-                            </div> <!-- /.card-body -->
-                        </div><!-- /.card -->
+                        
                     </div>
                 </div>
                 
-@endsection
+<!--@endsection-->
 @section("script-chart")
 <script>
         jQuery(document).ready(function($) {
@@ -305,4 +225,4 @@
             // Bar Chart #flotBarChart End
         });
     </script>
-@endsection
+<!--@endsection-->
