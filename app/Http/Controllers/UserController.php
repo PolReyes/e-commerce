@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Cliente;
 use App\Producto;
-use App\Models\User;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Intervention\Image\Facades\Image;

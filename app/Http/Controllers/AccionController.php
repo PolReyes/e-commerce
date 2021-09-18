@@ -26,7 +26,7 @@ class AccionController extends Controller
 
         if (Auth::attempt($credentials)) {
             // Authentication passed...
-            return redirect()->intended('home');
+            return redirect()->intended('admin/home');
         }
 
         return redirect()->back()->with(array(
@@ -38,6 +38,6 @@ class AccionController extends Controller
 
     public function getLogout(){
         Auth::logout();
-        return redirect()->intended('/');
+        return redirect()->route('admin.login');
     }
 }

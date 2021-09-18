@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +13,34 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+//API Clientes
+Route::post('cliente/login',"Api\ClienteController@postLogin");
+Route::post('cliente/registro',"Api\ClienteController@postRegistro");
+Route::post('cliente/recuperar',"Api\ClienteController@postRecuperar");
+Route::post('cliente/editar',"Api\ClienteController@postEditar");
+Route::get("cliente/{id}","Api\ClienteController@getCliente");
+
+//API Productos
+Route::get("producto/listar","Api\ProductoController@getListar");
+Route::get("producto/detalle/{id}","Api\ProductoController@getDetalle");
+Route::get("producto/buscar","Api\ProductoController@getBuscar");
+
+//API Carrito de compras
+Route::get("carrito/listar","Api\CarritoController@getListar");
+Route::post("carrito/agregar","Api\CarritoController@postAgregar");
+Route::post("carrito/eliminar","Api\CarritoController@postEliminar");
+
+//API de Tarjetas
+Route::get("tarjeta/listar","Api\TarjetaController@getListar");
+Route::post("tarjeta/agregar","Api\TarjetaController@postAgregar");
+Route::post("tarjeta/eliminar","Api\TarjetaController@postEliminar");
+
+//API de Direcciones
+Route::get("direccion/{id}","Api\DireccionController@getListar");
+Route::post("direccion/actualizar","Api\DireccionController@postAgregar");
+
+//API de Ventas
+Route::post("venta/crear","Api\VentaController@postAgregar");
+Route::get("venta/listar","Api\VentaController@getListar");
+Route::get("venta/detalle/{id}","Api\VentaController@getDetalle");
+Route::post("venta/modificarEstado","Api\VentaController@postModificarEstado");

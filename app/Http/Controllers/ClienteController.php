@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Cliente;
+use App\Cliente;
+use App\Producto;
 use Illuminate\Http\Request;
 use Intervention\Image\Facades\Image;
 use Illuminate\Support\Facades\Validator;

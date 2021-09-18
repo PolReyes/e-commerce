@@ -17,7 +17,7 @@ Lista de clientes
         @else
             {{--<a href="{{ route('productos.create') }}" class="btn btn-primary btn-sm">Agregar <i class="fa fa-plus"></i></a>--}}
         @endif
-        <a href="{{ route( $ruta.'.index')."?lista=archivados" }}" class="btn btn-primary btn-sm">Archivados <i class="fa fa-trash"></i></a>
+        <a href="{{ route( $ruta.'.index')."?lista=archivados" }}" class="btn btn-default btn-sm">Archivados <i class="fa fa-trash"></i></a>
     </div>
     <div class="col-md-12">
         <div class="card">
@@ -72,7 +72,7 @@ Lista de clientes
 </div>
 @endsection
 
-@section("script-table")
+@section("scripts")
 <script src="{{ asset('assets/js/lib/data-table/datatables.min.js') }}"></script>
 <script src="{{ asset('assets/js/lib/data-table/dataTables.bootstrap.min.js') }}"></script>
 <script src="{{ asset('assets/js/lib/data-table/dataTables.buttons.min.js') }}"></script>
@@ -85,7 +85,7 @@ Lista de clientes
 <script src="{{ asset('assets/js/init/datatables-init.js') }}"></script>
 <script>
 function eliminar(id){
-    var r = confirm("¿Desea eliminar este cliente?");
+    var r = confirm("¿Desea esta acción?");
     if (r == true) {
         $("#form_delete_"+ id).trigger("submit");
     } else {

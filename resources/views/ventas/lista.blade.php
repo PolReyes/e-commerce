@@ -35,11 +35,10 @@ Ventas
                         </tr>
                     </thead>
                     <tbody>
-                        
                         @foreach($dataList as $object)
                             <tr>
                                 <td>{{ $object->id }}</td>
-                                <td>{{ $object->cliente->nombre}} {{ $object->cliente->apellido}} </td>
+                                <td>{{ $object->cliente->nombre }} {{ $object->cliente->apellido }}</td>
                                 <td>{{ date("d/m/Y H:i:s",strtotime($object->fecha_hora)) }}</td>
                                 <td>S/ {{ number_format($object->monto,2) }}</td>
                                 <td>

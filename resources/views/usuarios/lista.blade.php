@@ -60,7 +60,7 @@ Usuarios de sistema
 </div>
 @endsection
 
-@section("script-table")
+@section("scripts")
 <script src="{{ asset('assets/js/lib/data-table/datatables.min.js') }}"></script>
 <script src="{{ asset('assets/js/lib/data-table/dataTables.bootstrap.min.js') }}"></script>
 <script src="{{ asset('assets/js/lib/data-table/dataTables.buttons.min.js') }}"></script>

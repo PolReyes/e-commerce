@@ -116,7 +116,7 @@ Author URI: http://themeforest.net/user/Ansonika/
 .hamburger-inner::after {
   width: 26px;
   height: 2px;
-  background-color: #fff;
+  background-color: #000;
   border-radius: 0;
   position: absolute;
   transition-property: transform;
@@ -1911,7 +1911,7 @@ a.btn_1,
 .btn_1 {
   border: none;
   color: #fff;
-  background: #004dda;
+  background: #F06E4F;
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -1939,7 +1939,7 @@ a.btn_1:focus,
 }
 a.btn_1:hover,
 .btn_1:hover {
-  background-color: #FFC107;
+  background-color: #F06E4F;
   color: #111 !important;
 }
 a.btn_1.full-width,
@@ -1978,7 +1978,7 @@ a.btn_1.gray,
 }
 a.btn_1.gray:hover,
 .btn_1.gray:hover {
-  background-color: #FFC107;
+  background-color: #F06E4F;
   color: #111 !important;
 }
 a.btn_1 i,
@@ -2270,7 +2270,7 @@ header ul.top_tools > li .dropdown-access .dropdown-menu a {
 header ul.top_tools > li .dropdown-cart .dropdown-menu a.btn_1,
 header ul.top_tools > li .dropdown-access .dropdown-menu a.btn_1 {
   color: #111;
-  background-color: #FFC107;
+  background-color: #F06E4F;
   height: auto;
   line-height: 1.4;
 }
@@ -2360,13 +2360,13 @@ header .sticky_element {
   }
 }
 header.version_1 .main_header {
-  background-color: #004dda;
+  background-color: #F7F7F7;
 }
 header.version_1 .main_header a.phone_top {
-  color: #fff;
+  color: #000;
 }
 header.version_1 .main_header a.phone_top:before {
-  color: #fff;
+  color: #000;
 }
 @media (max-width: 767px) {
   header.version_1 .main_header ul.top_tools {
@@ -2432,7 +2432,7 @@ header.version_1 .main_header ul.top_tools > li .dropdown-access:hover > a {
   }
 }
 header.version_1 .main_nav {
-  background-color: #fff;
+  background-color: #F06E4F;
 }
 header.version_1 .main_nav.inner {
   border-bottom: 1px solid #ededed;
@@ -2638,11 +2638,11 @@ header.version_2 .search_mob_wp .btn_1:hover {
 }
 
 header.version_1 .main-menu > ul > li > a {
-  color: #fff;
+  color: #000;
 }
 
 header.version_1 .main-menu > ul > li:hover > a {
-  color: #fff;
+  color: #F06E4F;
 }
 
 .main-menu > ul > li.submenu:hover > a:after {
@@ -3177,11 +3177,11 @@ nav a.open_close#close_in > i:hover {
   padding: 0 10px 0 15px;
 }
 .menu ul li ul li a:hover {
-  background-color: #0044c2;
+  background-color: #F06E4F;
   background-color: rgba(0, 77, 218, 0.04);
 }
 .menu ul li ul li a.active {
-  color: #004dda;
+  color: #F06E4F;
   background-color: #0044c2;
   background-color: rgba(0, 77, 218, 0.04);
 }
@@ -3192,7 +3192,7 @@ nav a.open_close#close_in > i:hover {
   font-size: 21px;
   font-size: 1.3125rem;
   margin-top: 0;
-  color: #004dda;
+  color: #F06E4F;
 }
 @media (max-width: 767px) {
   .menu ul li ul li a.active:after {
@@ -3201,7 +3201,7 @@ nav a.open_close#close_in > i:hover {
 }
 
 .menu ul.expanded span a.active:hover {
-  color: #004dda;
+  color: #F06E4F;
   background-color: #0044c2;
   background-color: rgba(0, 77, 218, 0.04);
 }
@@ -3212,7 +3212,7 @@ nav a.open_close#close_in > i:hover {
   font-size: 21px;
   font-size: 1.3125rem;
   margin-top: 0;
-  color: #004dda;
+  color: #F06E4F;
 }
 @media (max-width: 767px) {
   .menu ul.expanded span a.active:hover:after {
@@ -3305,20 +3305,20 @@ header.version_1 .menu ul li > span a .hamburger-inner::after {
   background-color: #111;
 }
 header.version_1 .menu ul li > span a:hover {
-  color: #004dda;
+  color: #fff;
 }
 header.version_1 .menu ul li > span a:hover .hamburger-inner,
 header.version_1 .menu ul li > span a:hover .hamburger-inner::before,
 header.version_1 .menu ul li > span a:hover .hamburger-inner::after {
-  background-color: #004dda;
+  background-color: #fff;
 }
 header.version_1 .menu ul li > span a.active {
-  color: #004dda;
+  color: #000;
 }
 header.version_1 .menu ul li > span a.active .hamburger-inner,
 header.version_1 .menu ul li > span a.active .hamburger-inner::before,
 header.version_1 .menu ul li > span a.active .hamburger-inner::after {
-  background-color: #004dda;
+  background-color: #fff;
 }
 header.version_1 .menu ul li ul li a {
   color: #444;
@@ -3326,12 +3326,12 @@ header.version_1 .menu ul li ul li a {
 
 /* Categories button version 2 */
 header.version_2 .menu ul li > span > a {
-  color: #fff;
+  color: #F06E4F;
 }
 header.version_2 .menu ul li > span > a .hamburger-inner,
 header.version_2 .menu ul li > span > a .hamburger-inner::before,
 header.version_2 .menu ul li > span > a .hamburger-inner::after {
-  background-color: #fff;
+  background-color: #F06E4F;
 }
 header.version_2 .menu ul li > span > a:hover {
   color: #ffff99;
@@ -3353,7 +3353,7 @@ header.version_2 .menu ul li ul li a {
   color: #444 !important;
 }
 header.version_2 .menu ul li ul li a:hover {
-  color: #004dda !important;
+  color: #F06E4F !important;
 }
 
 header.version_2 .menu ul li ul {
