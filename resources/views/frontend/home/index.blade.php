@@ -13,7 +13,7 @@
 										<p class="owl-slide-animated owl-slide-subtitle">
 										Marca líder en suplementos deportivos
 										</p>
-										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="#" role="button">comprar</a></div>
+										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="#" role="button">Comprar</a></div>
 									</div>
 								</div>
 							</div>
@@ -27,11 +27,11 @@
 							<div class="row justify-content-center justify-content-md-start">
 								<div class="col-lg-6 static">
 									<div class="slide-text white">
-										<h2 class="owl-slide-animated owl-slide-title">Attack Air<br>VaporMax Flyknit 3</h2>
+										<h2 class="owl-slide-animated owl-slide-title">Perú Force</h2>
 										<p class="owl-slide-animated owl-slide-subtitle">
-											Limited items available at this price
+										Marca líder en suplementos deportivos
 										</p>
-										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="listing-grid-1-full.html" role="button">Shop Now</a></div>
+										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="listing-grid-1-full.html" role="button">Comprar</a></div>
 									</div>
 								</div>
 							</div>
@@ -45,11 +45,11 @@
 							<div class="row justify-content-center justify-content-md-start">
 								<div class="col-lg-12 static">
 									<div class="slide-text text-center black">
-										<h2 class="owl-slide-animated owl-slide-title">Attack Air<br>Monarch IV SE</h2>
+										<h2 class="owl-slide-animated owl-slide-title">Perú Force</h2>
 										<p class="owl-slide-animated owl-slide-subtitle">
-											Lightweight cushioning and durable support with a Phylon midsole
+										Marca líder en suplementos deportivos
 										</p>
-										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="listing-grid-1-full.html" role="button">Shop Now</a></div>
+										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="listing-grid-1-full.html" role="button">Comprar</a></div>
 									</div>
 								</div>
 							</div>
